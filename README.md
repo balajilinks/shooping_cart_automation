@@ -1,4 +1,4 @@
-# shooping_cart_automation
+# shopping_cart_automation
 
 ## Sample Automation Framework
 
