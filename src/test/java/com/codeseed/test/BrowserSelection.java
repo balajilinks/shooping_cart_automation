@@ -14,7 +14,9 @@ public class BrowserSelection {
     public static WebDriver driver;
     public String browser = "chrome";
 
+
     public WebDriver select() {
+
         browser = System.getProperty("browser");
         System.out.println("Starting new Test script in - " + browser + "- browser");
 

@@ -22,12 +22,15 @@ public class HomePage {
         this.driver = driver;
     }
 
+    public void navigateTo(String strUrl) {
+        driver.get(strUrl);
+    }
     public void searchItem(String strText) {
         searchTextBox.click();
         searchTextBox.clear();
         searchTextBox.sendKeys(strText);
         searchButton.click();
-        buyItNowOnly.click();
+       // buyItNowOnly.click();
     }
 
     public void clickShoppingCart() {
