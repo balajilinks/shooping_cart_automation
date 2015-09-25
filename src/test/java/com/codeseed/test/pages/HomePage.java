@@ -14,8 +14,6 @@ public class HomePage {
     public WebElement searchTextBox;
     @FindBy(id = "gh-btn")
     public WebElement searchButton;
-    @FindBy(linkText = "Buy it now")
-    public WebElement buyItNowOnly;
     WebDriver driver;
 
     public HomePage(WebDriver driver) {
@@ -30,10 +28,6 @@ public class HomePage {
         searchTextBox.clear();
         searchTextBox.sendKeys(strText);
         searchButton.click();
-       // buyItNowOnly.click();
     }
 
-    public void clickShoppingCart() {
-
-    }
 }
