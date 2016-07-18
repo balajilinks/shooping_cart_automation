@@ -2,7 +2,7 @@
 
 ## Sample Automation Framework
 
-Maven + Selenium + cucucumber + TestnNG
+Maven + Selenium + cucumber + TestnNG
 
 # Command to Execute the Automation
 
